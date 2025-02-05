@@ -1,12 +1,14 @@
-# Projeto Dino AI
+# Projeto Dino IA
 
 **Referência:** Este projeto utilizou como base e inspiração o projeto [IAMDinosaur](https://github.com/ivanseidel/IAMDinosaur/tree/master), de Ivan Seidel, que demonstra uma abordagem para criar um agente que joga o jogo do dinossauro do Chrome. Foram realizadas alterações no projeto original, pois algumas bibliotecas utilizadas estavam descontinuadas ou sem atualização há um bom tempo. Para mais detalhes, consulte a seção [Modificações do Projeto](#modificações-do-projeto).
 
 ---
 
+![Descrição da Imagem](./imgs/score.png)
+
 ## Sumário
 
-- [Projeto Dino AI](#projeto-dino-ai)
+- [Projeto Dino IA](#projeto-dino-ia)
   - [Sumário](#sumário)
   - [Visão Geral](#visão-geral)
   - [Modificações do Projeto](#modificações-do-projeto)
