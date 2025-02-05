@@ -1,7 +1,7 @@
 const GameManipulator = {
   // Maximum observed speed in the game
-  maxSpeedObserved: 6.0,
-  initWithSpeed: 13.0,
+  maxSpeedObserved: 6.0, // is variable between 6.0 and 13.0 (mas speed the game)
+  initWithSpeed: null, //start treing with speed if have value, 
   // Stores points (successful jumps)
   points: 0,
 

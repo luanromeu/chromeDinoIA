@@ -231,9 +231,15 @@ UI.uiSensors.setData({
   screen.render();
 };
 
-// Render continuous screen (wait 10s to load pupptear browser)
-setTimeout(() => {
-  setInterval(UI.render, 25);
-}, 10000);
+/**
+ * Starts the continuous render loop.
+ * Call this function after UI.init is completed.
+ */
+UI.startRenderLoop = () => {
+  setTimeout(() => {
+    setInterval(UI.render, 25);
+  }, 10000);
+};
+
 
 export default UI;
