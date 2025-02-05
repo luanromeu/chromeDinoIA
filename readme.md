@@ -200,15 +200,11 @@ A rede neural utilizada possui uma arquitetura simples, porém eficaz para o pro
    - Abra um terminal na pasta do projeto.
    - Execute o comando `npm install` para instalar todas as dependências.
 
-3. **Configuração Inicial:**
-   - Abra o jogo do dinossauro do Chrome.
-   - Mantenha o terminal na mesma tela do jogo
-4. **Execução:**
+3. **Execução:**
    - No terminal, execute o comando `npm start` ou `node index.js`.
-   - Se o jogo for localizado, o cursor do mouse será movido para a origem do chão do dinossauro.
    - Após a execução, pressione a tecla **s** no terminal para iniciar o treinamento.
 
-5. **Monitoramento e Debug:**
+4. **Monitoramento e Debug:**
    - O projeto inclui uma interface de debug que sobrepõe informações no canvas do jogo, exibindo dados dos sensores e ativações em tempo real. No arquivo `GameManipulator.js`, basta definir a variável `debug` como `true`.
    - Logs são gerados no console para facilitar o acompanhamento do progresso do treinamento.
 
