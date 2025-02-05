@@ -3,7 +3,7 @@ import GameManipulator from './GameManipulator.js';
 import UI from './UI.js';
 import Learner from './Learner.js';
 
-// Função recursiva para aguardar o canvas do jogo
+// Recursive function to wait game canvas
 async function waitForCanvasRecursive(page) {
   const element = await page.$('canvas.runner-canvas');
   if (element) {
